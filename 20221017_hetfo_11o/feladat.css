@@ -1,0 +1,248 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    /*add meg azt a tulajdonság érték párost, melynek köszönhetően a content akkor is ugyanolyan széles lesz, ha belső margót, szegélyt, illetve margót adsz hozzá:*/
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/**************************************
+/* NAVIGATION BAR
+**************************************/
+.nav-bar {
+    background-color: #1a3365;
+}
+
+.nav-content {
+   /*Mely tulajdonság érték páros hiányzik innen?*/
+
+    height: 80px;
+    max-width: 1060px;
+
+    margin: 0 auto;
+}
+
+.nav-link {
+     /*Melyik 3 tulajdonság érték páros hiányzik innen?*/
+    
+    
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    color: #bfbfbf;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.icon, .icon-2 {
+    font-size: 0.80em;
+    margin-bottom: 8px;
+}
+
+.nav-link:hover,
+.nav-link-2:hover,
+.brand-name:hover {
+    color: #fff;
+    background-color: #152951;
+} 
+
+
+/**************************************
+/* NAVIGATION BAR 2
+**************************************/
+.nav-container {
+     /*Mely tulajdonság érték párok hiányzanak innen (3 sor)?*/
+
+    margin: 0 8.33%;
+}
+
+/* bal oldali nav */
+.to-left {
+     /*Mely tulajdonság érték párosok hiányzanak innen (2 sor)?*/
+}
+
+.nav-brand {
+     /*Mely tulajdonság érték páros hiányzik innen?*/
+
+    height: 80px;
+    width: 120px;
+}
+
+.brand-name {
+    /*Mely tulajdonság érték párok hiányzanak innen (3 sor)?*/
+
+    height: 100%;
+    justify-content: center;
+    align-items: center; 
+
+    color: #bfbfbf;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* to the right side of navbar */
+.to-right {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+}
+
+.nav-content-2 {
+   /*Mely tulajdonság érték párok hiányzanak innen (2 sor)?*/
+
+    height: 80px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.nav-link-2 {
+    /*Mely tulajdonság érték párok hiányzanak innen (3 sor)?*/
+
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+
+    color: #bfbfbf;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/**************************************
+/* COLUMNS
+**************************************/
+.row {
+   /*Mely tulajdonság érték párok hiányzanak innen (2 sor)?*/
+    padding: 8px 0;
+}
+
+.col-1 {
+    flex: 8.33%;
+    max-width: 8.33%;
+    padding: 0 0.5%;
+}
+
+.col-2 {
+    flex: 16.66%;
+    max-width: 16.66%;
+    padding: 0 0.5%;
+}
+
+.col-3 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0.5%;
+}
+
+.col-4 {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 0.5%;
+}
+
+.col-5 {
+    flex: 41.66%;
+    max-width: 41.66%;
+    padding: 0 0.5%;
+}
+
+.col-6 {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 0.5%;
+}
+
+.col-7 {
+    flex: 58.33%;
+    max-width: 58.33%;
+    padding: 0 0.5%;
+}
+
+.col-8 {
+    flex: 66.66%;
+    max-width: 66.66%;
+    padding: 0 0.5%;
+}
+
+.col-9 {
+    flex: 75%;
+    max-width: 75%;
+    padding: 0 0.5%;
+}
+
+.col-10 {
+    flex: 83.33%;
+    max-width: 83.33%;
+    padding: 0 0.5%;
+}
+
+.col-11 {
+    flex: 91.66%;
+    max-width: 91.66%;
+    padding: 0 0.5%;
+}
+.col-12 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 0.5%;
+}
+
+
+.offset-1 {
+    margin-left: 8.33%;
+}
+
+.offset-2 {
+    margin-left: 16.66%;
+}
+
+.offset-3 {
+    margin-left: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.33%;
+}
+
+.offset-5 {
+    margin-left: 41.66%;
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: 58.33%;
+}
+
+.offset-8 {
+    margin-left: 66.66%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.offset-10 {
+    margin-left: 83.33%;
+}
+
+.offset-11 {
+    margin-left: 91.66%;
+}
+
+.offset-12 {
+    margin-left: 100%;
+}
