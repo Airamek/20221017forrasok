@@ -20,6 +20,7 @@ body {
 
 .nav-content {
    /*Mely tulajdonság érték páros hiányzik innen?*/
+    display: flex;
 
     height: 80px;
     max-width: 1060px;
@@ -29,7 +30,9 @@ body {
 
 .nav-link {
      /*Melyik 3 tulajdonság érték páros hiányzik innen?*/
-    
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
     
     height: 100%;
     justify-content: center;
@@ -42,6 +45,7 @@ body {
 }
 
 .icon, .icon-2 {
+
     font-size: 0.80em;
     margin-bottom: 8px;
 }
@@ -59,6 +63,7 @@ body {
 **************************************/
 .nav-container {
      /*Mely tulajdonság érték párok hiányzanak innen (3 sor)?*/
+    display: flex;
 
     margin: 0 8.33%;
 }
@@ -66,6 +71,8 @@ body {
 /* bal oldali nav */
 .to-left {
      /*Mely tulajdonság érték párosok hiányzanak innen (2 sor)?*/
+    display: flex;
+    justify-content: flex-start;
 }
 
 .nav-brand {
@@ -77,6 +84,7 @@ body {
 
 .brand-name {
     /*Mely tulajdonság érték párok hiányzanak innen (3 sor)?*/
+    display:flex;
 
     height: 100%;
     justify-content: center;
@@ -98,6 +106,7 @@ body {
 
 .nav-content-2 {
    /*Mely tulajdonság érték párok hiányzanak innen (2 sor)?*/
+    display: flex;
 
     height: 80px;
     max-width: 480px;
@@ -106,6 +115,10 @@ body {
 
 .nav-link-2 {
     /*Mely tulajdonság érték párok hiányzanak innen (3 sor)?*/
+    width: 50vw;
+    display:flex;
+    flex-direction: column;
+
 
     height: 100%;
     width: 100%;
@@ -124,6 +137,8 @@ body {
 **************************************/
 .row {
    /*Mely tulajdonság érték párok hiányzanak innen (2 sor)?*/
+    display: flex;
+
     padding: 8px 0;
 }
 
@@ -245,4 +260,78 @@ body {
 
 .offset-12 {
     margin-left: 100%;
+}
+
+.lila1 {
+    background-color: rebeccapurple;
+    height: 100px;
+    width: auto;
+}
+
+.lila2 {
+    background-color: blueviolet;
+    height: 100px;
+    width: auto;
+}
+
+.lila3 {
+    background-color: purple;
+    height: 100px;
+    width: auto;
+}
+
+.lila4 {
+    background-color: plum;
+    height: 100px;
+    width: auto;
+}
+
+.narancs1 {
+    background-color: orange;
+    height: 100px;
+    width: auto;
+}
+
+.narancs2 {
+    background-color: orangered;
+    height: 300px;
+    width: auto;
+}
+
+.piros {
+    background-color: red;
+    height: 100px;
+    width: auto;
+}
+
+.zold1 {
+    background-color: greenyellow;
+    height: 100px;
+    width: auto;
+}
+
+.zold2 {
+    background-color: green;
+    height: 100px;
+    width: auto;
+}
+
+.kek1 {
+    background-color: aqua;
+    height: 200px;
+    width: auto;
+}
+
+.kek2 {
+    background-color: blue;
+    height: 300px;
+    width: auto;
+}
+
+.sarga1 {
+    background-color: yellow;
+}
+
+.sarga2 {
+    background-color: goldenrod;
 }
